@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+            <p id="countdown">Time: 0</p>
+            <button id="rankingBtn">High scores</button>
+        </header>
+        <div id="home">
+            <h2>Coding Quiz Challenge</h2>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                answers will penalize your score time by ten seconds!</p>
+            <button id="startBtn">Start</button>
+        </div>
+        <div id="resultCard">
+            <h4 id="result"></h4>
+        </div>
+
+        <div id="questionCard">
+            <h3 id="question"></h3>
+            <button id="choiceA" class="choice"></button>
+            <br>
+            <button id="choiceB" class="choice"></button>
+            <br>
+            <button id="choiceC" class="choice"></button>
+            <br>
+            <button id="choiceD" class="choice"></button>
+            <br>
+        </div>
+
+        <div id="scoreCard">
+            <h5 id="yourScore"></h5>
+            <h3>All done!</h3>
+            <p> Enter initial: </p>
+            <input id="name"></input>
+            <button id="saveBtn">Submit</button>
+        </div>
+
+        <div id="rankingCard">
+            <h3>High scores</h3>
+            <ol id="orderedList"></ol>
+            <button id="goBackBtn">Go back</button>
+            <button id="clearScoresBtn">Clear high scores</button>
+        </div>
+    </div>
+
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
