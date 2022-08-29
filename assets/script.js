@@ -118,6 +118,7 @@ function saveFt() {
   };
   scoresArr.push(userInfo);
   localStorage.setItem("storageString", JSON.stringify(scoresArr));
+  rankingFt();
 }
 
 function rankingFt() {
@@ -139,7 +140,6 @@ function rankingFt() {
     orderedListEl.appendChild(listEl);
   }
 }
-
 function choiceFt(event) {
   if (questionIndex < arr.length) {
     if (event.target.className == "choice") {
@@ -148,7 +148,7 @@ function choiceFt(event) {
         resultEl.setAttribute("style", "color: greenyellow");
       } else {
         resultEl.textContent = "Wrong!";
-        resultEl.setAttribute("style", "color:rgb(228, 63, 228)");
+        resultEl.setAttribute("style", "color:red");
         time -= 10;
         countdownEl.textContent = "Time: " + time;
       }
