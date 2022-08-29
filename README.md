@@ -25,4 +25,4 @@ Check the High Scores:
 ![Screen Shot 2022-08-29 at 2 58 13 PM](https://user-images.githubusercontent.com/108194923/187277766-cd530038-317a-4498-ba0e-6152fa1f3799.png)
 
 ## Contribution
-Made with ❤️ by Thiago Borges Nasciutti![Screen Shot 2022-08-29 at 2 57 30 PM](https://user-images.githubusercontent.com/108194923/187277246-9c75d55f-7ecd-4040-9e8a-35b3673b063f.png)
+Made with ❤️ by Thiago Borges Nasciutti
