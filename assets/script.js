@@ -145,8 +145,10 @@ function choiceFt(event) {
     if (event.target.className == "choice") {
       if (event.target.textContent == arr[questionIndex].answer) {
         resultEl.textContent = "Correct!";
+        resultEl.setAttribute("style", "color: greenyellow");
       } else {
         resultEl.textContent = "Wrong!";
+        resultEl.setAttribute("style", "color:rgb(228, 63, 228)");
         time -= 10;
         countdownEl.textContent = "Time: " + time;
       }
@@ -170,6 +172,7 @@ function goBackFt() {
   rankingCardEl.style.display = "none";
   headerEl.style.display = "flex";
   headerEl.style.justifyContent = "space-between";
+  window.location.reload();
 }
 
 function clearScoresFt() {
