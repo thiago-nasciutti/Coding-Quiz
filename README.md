@@ -9,7 +9,7 @@ A website with a timed code quiz, that saves ranking the scores. Your score is t
 * JS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+ https://thiago-nasciutti.github.io/Coding-Quiz/
 
 
 Home Screen:
